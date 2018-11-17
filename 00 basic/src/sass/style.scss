@@ -45,11 +45,14 @@ header{
     }
 
     #info-student{
-        display:flex;
-        align-items: center;
         margin:0;
-        text-align:center;
-        
+        a{
+            display:flex;
+            align-items: center;
+            text-align:center;
+            text-decoration:none;
+            color:$colorTema;
+        }
         img{
             border-radius:100%;
             width:40px;

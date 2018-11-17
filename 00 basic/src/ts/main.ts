@@ -1,15 +1,20 @@
  interface Student {
     name: string,
     city: string,
+    works: string,
 };
 const student: Student = {
     name: 'Laura González Fueyo',
-    city: 'Gijón'
+    city: 'Gijón',
+    works: 'https://github.com/lauragfueyo',
 };
 
 var photo = require('../content/student.jpg');
 const img = document.createElement('img');
 img.src = photo;
+
+const url = document.createElement('a');
+url.href = student.works;
 
 const infoStudent = document.createElement('strong');
 const infoStudentCity = document.createElement('small');
@@ -20,5 +25,8 @@ infoStudent.appendChild(nameStudent);
 infoStudentCity.appendChild(city);
 infoStudent.appendChild(infoStudentCity);
 
-document.getElementById('info-student').appendChild(infoStudent);
-document.getElementById('info-student').appendChild(img); 
+url.appendChild(infoStudent);
+url.appendChild(img);
+
+document.getElementById('info-student').appendChild(url);
+//document.getElementById('info-student').appendChild(img); 
