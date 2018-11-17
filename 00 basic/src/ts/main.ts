@@ -1,16 +1,15 @@
-interface Student {
+ interface Student {
     name: string,
-    image: string,
     city: string,
 };
 const student: Student = {
     name: 'Laura González Fueyo',
-    image: 'src/content/student.jpg',
     city: 'Gijón'
 };
 
+var photo = require('../content/student.jpg');
 const img = document.createElement('img');
-img.src = student.image;
+img.src = photo;
 
 const infoStudent = document.createElement('strong');
 const infoStudentCity = document.createElement('small');
@@ -22,4 +21,4 @@ infoStudentCity.appendChild(city);
 infoStudent.appendChild(infoStudentCity);
 
 document.getElementById('info-student').appendChild(infoStudent);
-document.getElementById('info-student').appendChild(img);
+document.getElementById('info-student').appendChild(img); 
