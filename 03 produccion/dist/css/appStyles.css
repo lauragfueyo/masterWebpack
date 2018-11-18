@@ -1,0 +1,91 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800);
+* {
+  margin: 0;
+  padding: 0; }
+
+:root {
+  height: 100%; }
+
+body {
+  height: 100%;
+  background: #f5f5f5;
+  font-family: Open Sans, sans-serif; }
+
+header {
+  background: #fff;
+  box-shadow: 0 5px 25px 0 rgba(199, 199, 199, 0.3);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  margin-bottom: 40px; }
+  @media (min-width: 47em) {
+    header {
+      padding: 15px 30px; } }
+  header h1 {
+    width: 65px;
+    overflow: hidden; }
+    header h1 img {
+      width: 150px;
+      display: block; }
+    @media (min-width: 47em) {
+      header h1 {
+        width: 200px; }
+        header h1 img {
+          width: 200px; } }
+  header #info-student {
+    margin: 0; }
+    header #info-student a {
+      display: flex;
+      align-items: center;
+      text-align: center;
+      text-decoration: none;
+      color: #0e303f; }
+    header #info-student img {
+      border-radius: 100%;
+      width: 40px; }
+    header #info-student strong {
+      display: block;
+      font-size: .7em;
+      text-align: right;
+      margin-right: 10px; }
+      header #info-student strong small {
+        display: block;
+        font-weight: normal;
+        color: #ccda3f; }
+    @media (min-width: 47em) {
+      header #info-student strong {
+        font-size: .8em;
+        margin-right: 20px; }
+      header #info-student img {
+        width: 60px; } }
+
+section {
+  padding-bottom: 20px; }
+
+.container {
+  margin: 0 auto;
+  padding: 0 20px;
+  max-width: 50em; }
+
+h2, p {
+  margin-bottom: 20px; }
+
+h1 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  font-size: 3em;
+  color: #fff; }
+
+h2 {
+  font-weight: 300; }
+
+ul {
+  margin: 20px; }
+  ul li {
+    padding-bottom: 10px; }
+  ul small {
+    display: block; }
+
+
+/*# sourceMappingURL=appStyles.css.map*/
