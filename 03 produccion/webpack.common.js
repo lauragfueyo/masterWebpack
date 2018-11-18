@@ -42,9 +42,9 @@ module.exports = {
             {
                 test: /\.scss$/,
                 use: [
-                  MiniCssExtractPlugin.loader,
-                  'css-loader',
-                  'sass-loader',
+                MiniCssExtractPlugin.loader,
+                'css-loader',
+                'sass-loader',
                 ]
             },
             {
@@ -73,5 +73,5 @@ module.exports = {
             filename: "./css/[name].css",
             chunkFilename: "[id].css",
         }),  
-    ]
+    ],
  };
