@@ -1,3 +1,4 @@
-# Ignorar el contenido de la carpeta node_module
+# Ignorar el contenido de la carpeta node_module y dist
 dist/
 node_modules/
+package-lock.json
