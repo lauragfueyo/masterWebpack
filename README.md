@@ -9,7 +9,7 @@
 <li>Tenga el texto de hola mundo estilado con SASS.</li>
 </ul>
 
-# 01 react
+# 01 React
 <p>Implimentar una aplicación simple con webpack mostrando un hola mundo desarrollado con React.</p>
 
 # 03 Producción
